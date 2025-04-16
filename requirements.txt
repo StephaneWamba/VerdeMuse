@@ -1,0 +1,39 @@
+# Web Framework
+fastapi>=0.103.1
+uvicorn>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.3.0
+
+# Frontend
+streamlit>=1.26.0
+streamlit-chat>=0.1.1
+
+# LLM and Knowledge Retrieval
+langchain>=0.0.267
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+mistralai>=0.0.7
+openai>=0.28.1  # For embedding models if needed
+
+# Vector Database
+chromadb>=0.4.13
+
+# Security
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
+python-dotenv>=1.0.0
+
+# Utilities
+numpy>=1.24.3
+pandas>=2.0.3
+pytest>=7.4.2
+pytest-asyncio>=0.21.1
+httpx>=0.24.1
+
+# Visualization (for dashboard)
+matplotlib>=3.7.3
+plotly>=5.16.1
+
+# Deployment
+docker>=6.1.3

@@ -1,0 +1,1 @@
+# Vector store package for FAISS and related functionality
